@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ItemForm from "./ItemForm";
 import Filter from "./Filter";
 import Item from "./Item";
-import { select } from "@inquirer/prompts";
 
 function ShoppingList({ items, onItemFormSubmit }) {
   const [searchText, setSearchText] = useState("");
